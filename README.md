@@ -18,8 +18,20 @@ Create a simple web application, check it into source control using GitHub, and 
 
 1. Create a new directory on your local machine for your project.
 2. Inside this directory, create an `index.html` file with the following content:
-    
-    `<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>My Basic Web Application</title> </head> <body> <h1>Welcome to My Basic Web Application</h1> <p>This is a simple HTML file for the CI/CD assignment.</p> </body> </html>`
+    ```html
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Basic Web Application</title> 
+</head> 
+<body> 
+  <h1>Welcome to My Basic Web Application</h1> 
+  <p>This is a simple HTML file for the CI/CD assignment.</p> 
+</body> 
+</html>
+```
     
 3. Initialize a new Git repository in your project directory by running `git init`.
 4. Add your `index.html` file to the repository using `git add .` and commit the changes using `git commit -m "Initial commit"`.
