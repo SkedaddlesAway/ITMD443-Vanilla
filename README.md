@@ -18,7 +18,7 @@ Create a simple web application, check it into source control using GitHub, and 
 
 1. Create a new directory on your local machine for your project.
 2. Inside this directory, create an `index.html` file with the following content:
-    ```html
+    ```
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
